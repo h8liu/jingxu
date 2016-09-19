@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+
+body {
+    font-family: "Open Sans", "sans-serif";
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #fff;
+}
+
+@page-margin: 10px;
+@page-width: 960px;
+
+div.body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: @page-width;
+    padding-left: @page-margin;
+    padding-right: @page-margin;
+}
+
+h1 {
+    font-size: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: #00a;
+}
+
+a:visited {
+    color: #009;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c00;
+} 
+
+div.navi {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-top: 1px #333 solid;
+    border-bottom: 1px #333 solid;
+    font-size: 16px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            line-height: 30px;
+            display: inline-block;
+            margin-right: 20px;
+        }
+    }
+}
+
+ul.pubs {
+    li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+img.jing {
+    width: 250px;
+    height: 350px;
+}
+
+img.cover {
+    float: right;
+    margin-left: 20px;
+}
+
+img.photo {
+    float: left;
+    margin-right: 20px;
+}
