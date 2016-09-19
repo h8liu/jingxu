@@ -27,7 +27,7 @@ export default function pagePub(): JSX.Element {
             A new O3-type layered oxide cathode with high energy / power
             density for rechargeable Na batteries</a>. <em>
             Chemical Communications</em> 2015, 51,
-            4693-4696. <span clasName="comment">
+            4693-4696. <span className="comment">
             (Equally contributed first authors)</span>
         </li>
         <li>
