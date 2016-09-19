@@ -12,7 +12,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 export function script(account: string): JSX.Element {
     let html = {
         __html: [
-            account,
+            gaPrefix,
             `ga('create', '` + account + `', 'auto');`,
             `ga('send', 'pageview');`,
         ].join('\n')

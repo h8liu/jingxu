@@ -15,6 +15,7 @@ function props(): wrap.Props {
     return {
         title: "Xu's Group for Energy Materials",
         css: './style.css',
+        ga: 'UA-84380516-1',
     }
 }
 
