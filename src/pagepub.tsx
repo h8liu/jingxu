@@ -26,8 +26,9 @@ export default function pagePub(): JSX.Element {
             Ma, C.; Meng, Y. S., <a href="papers/016.pdf">
             A new O3-type layered oxide cathode with high energy / power
             density for rechargeable Na batteries</a>. <em>
-            Chemical Communications</em> 2015, 51, 4693-4696. <strong>
-            (Equally contributed first authors)</strong>
+            Chemical Communications</em> 2015, 51,
+            4693-4696. <span clasName="comment">
+            (Equally contributed first authors)</span>
         </li>
         <li>
             Ma, C.; Xu, J.;
@@ -86,23 +87,26 @@ export default function pagePub(): JSX.Element {
             Lee, D. H.; Xu, J.; Meng, Y. S., <a href="papers/008.pdf">
             An advanced cathode for Na-ion batteries with high rate and
             excellent structural stability</a>. <em>Physical Chemistry
-            Chemical Physics</em> 2013, 15, 9, 3304-3312. <strong>
-            (Equally contributed first authors)</strong>
+            Chemical Physics</em> 2013, 15, 9,
+            3304-3312. <span className="comment">
+            (Equally contributed first authors)</span>
         </li>
         <li>
             Chen, H. T.; Xu, J.; Chen, P. C.; Fang, X.; Qiu, J.; Fu, Y.;
             Zhou, C. W., <a href="papers/007.pdf">
             Bulk synthesis of crystalline and crystalline core/amorphous
             shell silicon nanowires and their application for energy
-            storage</a>. <em>ACS Nano</em> 2011, 5, 8383-8390. <strong>
-            (Equally contributed first authors)</strong>
+            storage</a>. <em>ACS Nano</em> 2011, 5,
+            8383-8390. <span className="comment">
+            (Equally contributed first authors)</span>
         </li>
         <li>
             Chen, P. C.; Xu, J.; Chen, H. T.; Zhou,
             C. W., <a href="papers/006.pdf">Hybrid silicon-carbon
             nanostructured composites as superior anodes for lithium ion
-            batteries</a>. <em>Nano Research</em> 2011, 4, 290-296. <strong>
-            (Equally contributed first authors)</strong>
+            batteries</a>. <em>Nano Research</em> 2011, 4,
+            290-296.  <span className="comment">
+            (Equally contributed first authors)</span>
         </li>
         <li>
             Ding, N.; Xu, J.; Yao, Y. X.; Wegner, G.; Lieberwirth, I.;
@@ -135,7 +139,7 @@ export default function pagePub(): JSX.Element {
             Tremel, W.; Lieberwirth, I.;
             Chen, C. H., <a href="papers/001.pdf">
             Hydrothermal growth and characterization of nanostructured
-            vanadium-based oxides</a>. <em>Crystal Growth and Design
+            vanadium-based oxides</a>, <em>Crystal Growth and Design
             </em> 2009,9 (4) , 1723-1728.
         </li>
     </ul>
