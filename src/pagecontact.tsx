@@ -7,7 +7,7 @@ export default function pageEquip(): JSX.Element {
         <navi.Top />
 
         <h2>Contact</h2>
-        <p>Professor Jing Xu</p>
+        <p>Doctor Jing Xu</p>
         <p>
             2220BL HOOVER<br/>
             Ames, IA 50011<br/>
