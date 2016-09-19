@@ -23,6 +23,10 @@ lint:
 	tslint --project tsconfig.json
 
 pack:
+	rm dist.tgz
 	rm -rf _
 	cp -RHL out _
 	cd _ && tar cvzf ../dist.tgz .
+
+pub: all pack
+	tar xvzf dist.tgz -C /prod/jingxu/dat
