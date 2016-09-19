@@ -12,7 +12,7 @@ lint:
 css:
 	lessc less/style.less out/style.css
 
-pack: all
+pack:
 	rm -rf _
 	cp -RHL out _
 	cd _ && tar cvzf ../dist.tgz .
