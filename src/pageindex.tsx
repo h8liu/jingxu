@@ -29,7 +29,7 @@ export default function pageIndex(): JSX.Element {
         <h3>News</h3>
         <p>We have several openings for postdocs, graduate students, and
         undergraduates. If you have interest,
-        please send you CV to <a href="mailto:jingxu@iastate.edu">
+        please send your CV to <a href="mailto:jingxu@iastate.edu">
             jingxu@iastate.edu</a>.
         </p>
 
