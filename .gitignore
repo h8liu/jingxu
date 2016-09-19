@@ -3,4 +3,6 @@
 /dist
 /css
 /out
+/_
 .DS_Store
+/dist.tgz

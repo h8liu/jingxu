@@ -1,4 +1,4 @@
-.PHONY: all
+.PHONY: all fmt lint css pack
 
 all: css
 	tsc && node .
@@ -11,3 +11,8 @@ lint:
 
 css:
 	lessc less/style.less out/style.css
+
+pack:
+	rm -rf _
+	cp -RHL out _
+	cd _ && tar cvzf ../dist.tgz .
