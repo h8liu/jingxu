@@ -9,23 +9,31 @@ export default function pageGroup(): JSX.Element {
         <h2>Group Member</h2>
 
         <h3>Principle Investigator</h3>
-        <img src='images/jing.jpg' className="photo"/>
-        <p>Jing Xu, Ph.D.</p>
-        <p>
-            2220BL HOOVER<br/>
-            Ames, IA 50011<br/>
-            515-294-9278<br/>
-            <a href="mailto:jingxu@iastate.edu">jingxu@iastate.edu</a>
-        </p>
+        <table className="member"><tbody>
+        <tr>
+            <td><img src='images/jing.jpg' className="photo"/></td>
+            <td>
+                <p>Jing Xu, Ph.D.</p>
+                <p>
+                    2220BL HOOVER<br/>
+                    Ames, IA 50011<br/>
+                    515-294-9278<br/>
+                    <a href="mailto:jingxu@iastate.edu">jingxu@iastate.edu</a>
+                </p>
 
-        <ul>
-            <li>Postdoc, Applied Energy Materials Group,
-            Lawrence Berkeley National Laboratory, 2016</li>
-            <li>Ph. D. Materials Science and Engineering,
-            University of California, San Diego, 2014</li>
-            <li>B. S. Materials Chemistry,
-            University of Science and Technology of China, 2009</li>
-        </ul>
+                <ul>
+                    <li>Assistant Professor, Material Science and Engineering
+                    Department, Iowa State University, Present</li>
+                    <li>Postdoc, Applied Energy Materials Group,
+                    Lawrence Berkeley National Laboratory, 2016</li>
+                    <li>Ph. D. Materials Science and Engineering,
+                    University of California, San Diego, 2014</li>
+                    <li>B. S. Materials Chemistry,
+                    University of Science and Technology of China, 2009</li>
+                </ul>
+            </td>
+        </tr>
+        </tbody></table>
 
         <h3>Postdocs</h3>
 
@@ -36,7 +44,7 @@ export default function pageGroup(): JSX.Element {
         <h3>Visitors</h3>
 
         <p><em>We have several openings for postdocs, graduate students,
-        and undergraduates. If you have interest, please send you CV
+        and undergraduates. If you have interest, please send your CV
         to <a href="mailto:jingxu@iastate.edu">jingxu@iastate.edu</a>.</em></p>
     </div>
 }

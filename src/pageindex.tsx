@@ -22,7 +22,7 @@ export default function pageIndex(): JSX.Element {
     return <div>
         <navi.Top />
 
-        <img className="jing cover" src="images/jing.jpg"/>
+        <img className="jing-large cover" src="images/jing-large.jpg"/>
         <h3>Research Overview</h3>
         <p>{overview}</p>
 
