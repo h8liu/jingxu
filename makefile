@@ -1,6 +1,9 @@
 .PHONY: all tmpl css links fmt lint pack
 
-all: tmpl css links
+all: clean tmpl css links
+
+clean:
+	rm -rf out
 
 tmpl:
 	tsc && node .
