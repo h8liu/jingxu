@@ -28,7 +28,7 @@ export function makePage(
     body: JSX.Element,
     scripts: string[]
 ) {
-    return <html>
+    return <html lang="en">
         {makeHead(headerProps) }
         <body>
             <div className="body">
