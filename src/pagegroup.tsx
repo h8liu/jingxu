@@ -70,7 +70,7 @@ export default function pageGroup(): JSX.Element {
                 greatest passions is traveling, where Jacob has been to many
                 different countries on three different continents. His interest in
                 research was fueled through his desire to develop new technologies
-                to improve the world as we know it.Jacob&#39; s goal is to develop
+                to improve the world as we know it. Jacob&#39; s goal is to develop
                 higher capacity energy storage materials to help foster more
                 sustainable technologies for travel and long-term energy storage.
             </p>
