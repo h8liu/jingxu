@@ -7,20 +7,27 @@ export default function pagePub(): JSX.Element {
         <li>
             Clement, R. J.;  Xu, J.;
             Middlemiss, D.; Alvarado, J.; Ma, C.; Meng, Y. S.;
-            Grey, C. P.; <a href="papers/020.pdf">Direct evidence for high
+            Grey, C. P.; Direct evidence for high
             Na+ mobility and high voltage structural processes in
             P<sub>2</sub>-Na<sub>x</sub>[Li<sub>y</sub>Ni<sub>z</sub>Mn<sub>1-y-z</sub>]O<sub>2</sub>
             (x,y,z ≤ 1) cathodes from 23Na and 7Li solid-state NMR and first
-            principles density functional theory calculation</a>. <em>Journal
+            principles density functional theory calculation. <em>Journal
             of Materials Chemistry
             A</em> 2017, Accepted Manuscript.
         </li>
         <li>
             Xu, J.;
-            Lin F.; Doeff, M. M.; Tong, W.; <a href="papers/019.pdf">
+            Lin F.; Doeff, M. M.; Tong, W.; <a href="papers/020.pdf">
             A review of Ni-based layered oxides for rechargeable Li-ion
             batteries</a>. <em>Journal of Materials Chemistry A</em> 2017, 5,
             874-901.
+        </li>
+        <li>
+            Xu, J.; Hu,E.; Nordlund D.; Mehta, A.; Ehrlich,S. N.;
+            Yang, X.-Q.; Tong, W.; <a href="papers/019.pdf">
+            Understanding the degradation mechanism
+            of lithium nickel oxide cathodes for li-ion batteries</a>. <em>ACS
+                Applied Materials &amp; Interfaces</em> 2016, 46, 31677-31683.
         </li>
         <li>
             Xu, J.;

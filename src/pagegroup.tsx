@@ -40,6 +40,9 @@ export default function pageGroup(): JSX.Element {
             <a name="guantai"/>
             <img src="images/guantai.png" className="photo" alt="Guantai Hu"/>
             <h4>Guantai Hu</h4>
+            <div className="contact">
+                <a href="mailto:guantaih@iastate.edu">guantaih@iastate.edu</a>
+            </div>
             <p>Guantai Hu is a master student currently working under the guidance
                 of Dr. Xu. He has great enthusiasm in rechargeable battery research,
                 and his research topic is the application of transition metal
@@ -50,6 +53,9 @@ export default function pageGroup(): JSX.Element {
             <a name="hao"/>
             <img src="images/hao.png" className="photo" alt="Hao Lin"/>
             <h4>Hao Lin</h4>
+            <div className="contact">
+                <a href="mailto:lin666@iastate.edu">lin666@iastate.edu</a>
+            </div>
             <p>Hao Lin received his B.S. in Mining Engineering from Chongqing
                 University and M.S. in Applied Chemistry from Peking
                 University. His previous work focused on cathode materials for
@@ -66,6 +72,9 @@ export default function pageGroup(): JSX.Element {
             <a name="jacob"/>
             <img src="images/jacob.png" className="photo" alt="Jacob Wheaton"/>
             <h4>Jacob Wheaton</h4>
+            <div className="contact">
+                <a href="mailto:wheaton1@iastate.edu">wheaton1@iastate.edu</a>
+            </div>
             <p>Jacob Wheaton is a freshman undergraduate student in Materials
                 Engineering with a second major in French Language and Culture.
                 He is currently the Vice-President of the ISU Gaffer&#39; s Guild
