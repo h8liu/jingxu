@@ -1,25 +1,43 @@
 import * as React from 'react'
 
-export function Top(): JSX.Element {
-    function link(id: string, text: string) {
+interface Props {
+    id: string
+}
+
+export function Top(props: Props): JSX.Element {
+    function link(id: string, text: string): JSX.Element {
         let url = id + '.html'
+        if (id === props.id) {
+            return <li className="this">{text}</li>
+        }
         return <li>
             <a href={url}>{text}</a>
         </li>
     }
 
     return <div>
-        <h1>Xu's Group for Energy Materials</h1>
-        <div className="navi">
-            <ul>
-                { link('index', 'Home') }
-                { link('group', 'Group Member') }
-                { link('pub', 'Publications') }
-                { link('equip', 'Equipment') }
-                { link('teach', 'Teaching') }
-                { link('outreach', 'Outreach') }
-                { link('contact', 'Contact') }
-            </ul>
+        <div className="col">
+            <h1><a href="/">Xu's Group for Energy Materials</a></h1>
         </div>
+        <div className="navi">
+            <div className="col">
+                <ul>
+                    { link('index', 'Home') }
+                    { link('group', 'Group Members') }
+                    { link('pub', 'Publications') }
+                    { link('equip', 'Equipment') }
+                    { link('teach', 'Teaching') }
+                    { link('outreach', 'Outreach') }
+                    { link('contact', 'Contact') }
+                </ul>
+            </div>
+        </div>
+    </div>
+}
+
+export function Bottom(): JSX.Element {
+    return <div className="col bottom">
+        &copy; 2017, Jing Xu. All rights reserved.
+        <span><a href="/contact.html">Contact</a></span>
     </div>
 }

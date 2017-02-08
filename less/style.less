@@ -16,9 +16,9 @@ body {
 }
 
 @page-margin: 10px;
-@page-width: 960px;
+@page-width: 900px;
 
-div.body {
+div.col {
     margin-left: auto;
     margin-right: auto;
     max-width: @page-width;
@@ -28,54 +28,95 @@ div.body {
 
 h1 {
     font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    a, a:visited {
+        color: #333;
+    }
+
+    a:hover {
+        color: #c33;
+        text-decoration: none;
+    }
 }
 
-a {
+h2 {
+    font-size: 22px;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display:none;
+}
+h3 { font-size: 20px; color: #444; margin-top: 25px; margin-bottom: 10px; }
+h4 { font-size: 18px; }
+
+a, a:visited {
     text-decoration: none;
-    color: #00a;
-}
-
-a:visited {
     color: #009;
 }
 
 a:hover {
     text-decoration: underline;
     color: #c00;
-} 
+}
 
 div.navi {
     margin-top: 10px;
     margin-bottom: 10px;
+    background: #e0e0e0;
+    line-height: 40px;
 
-    border-top: 1px #333 solid;
-    border-bottom: 1px #333 solid;
     font-size: 16px;
 
     ul {
         padding: 0;
-        margin: 0;
+        margin-left: 0;
 
         li {
-            line-height: 30px;
             display: inline-block;
-            margin-right: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            a:hover {
+                text-decoration: none;
+            }
+        }
+
+        li:hover {
+            background: #ececec;
+        }
+
+        li.this {
+            background: #f3f3f3;
+            color: #c00;
+            a {
+                color: #c00;
+            }
         }
     }
 }
 
 ul.pubs {
-    line-height: 20px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
     li {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    sub {
+        font-size: 0.83em;
+        vertical-align: sub;
+        line-height: 0;
     }
 }
 
 img.jing-large {
     width: 250px;
     height: 300px;
+    border-radius: 10px;
 }
 
 img.jing {
@@ -85,12 +126,20 @@ img.jing {
 
 img.cover {
     float: right;
+    margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-img.photo {
-    float: left;
-    margin-right: 20px;
+div.info {
+    margin-left: 180px;
+    min-height: 200px;
+
+    img.photo {
+        float: left;
+        margin-left: -180px;
+        border-radius: 5px;
+    }
 }
 
 table.member {
@@ -102,4 +151,41 @@ table.member {
 span.comment {
     color: #999;
     font-size: 90%;
+}
+
+div.comment {
+    color: #999;
+    font-size: 90%;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p.ad {
+    text-align: center;
+}
+
+div.body {
+    margin-top: 25px;
+    min-height: 200px;
+}
+
+div.bottom {
+    border-top: 1px solid #ccc;
+    max-width: 600px;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    margin-top: 40px;
+    padding-top: 5px;
+    margin-bottom: 40px;
+
+    span {
+        margin-left: 13px;
+        margin-right: 13px;
+    }
 }

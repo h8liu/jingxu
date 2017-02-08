@@ -1,8 +1,10 @@
 import * as React from 'react'
 
 import * as ga from './ga'
+import * as navi from './navi'
 
 export interface Props {
+    id: string
     title: string // page title
     css: string // stylesheet
     ga?: string // Google Analytics account
@@ -24,16 +26,18 @@ function makeHead(props: Props) {
 }
 
 export function makePage(
-    headerProps: Props,
+    props: Props,
     body: JSX.Element,
     scripts: string[]
 ) {
     return <html lang="en">
-        {makeHead(headerProps) }
+        {makeHead(props) }
         <body>
-            <div className="body">
+            <navi.Top id={props.id} />
+            <div className="body col">
                 { body }
             </div>
+            <navi.Bottom />
             { scripts.map(f => <script src={f} key={f} />) }
         </body>
     </html>

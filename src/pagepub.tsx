@@ -5,6 +5,24 @@ import * as navi from './navi'
 export default function pagePub(): JSX.Element {
     let list = <ul className="pubs">
         <li>
+            Clement, R. J.;  Xu, J.;
+            Middlemiss, D.; Alvarado, J.; Ma, C.; Meng, Y. S.;
+            Grey, C. P.; <a href="papers/020.pdf">Direct evidence for high
+            Na+ mobility and high voltage structural processes in
+            P<sub>2</sub>-Na<sub>x</sub>[Li<sub>y</sub>Ni<sub>z</sub>Mn<sub>1-y-z</sub>]O<sub>2</sub>
+            (x,y,z ≤ 1) cathodes from 23Na and 7Li solid-state NMR and first
+            principles density functional theory calculation</a>. <em>Journal
+            of Materials Chemistry
+            A</em> 2017, Accepted Manuscript.
+        </li>
+        <li>
+            Xu, J.;
+            Lin F.; Doeff, M. M.; Tong, W.; <a href="papers/019.pdf">
+            A review of Ni-based layered oxides for rechargeable Li-ion
+            batteries</a>. <em>Journal of Materials Chemistry A</em> 2017, 5,
+            874-901.
+        </li>
+        <li>
             Xu, J.;
             Lin F.; Nordlund D.; Crumlin J. E.; Wang, F.; Bai, J.;
             Doeff, M. M.; Tong, W.; <a href="papers/018.pdf">
@@ -145,7 +163,6 @@ export default function pagePub(): JSX.Element {
     </ul>
  
     return <div>
-        <navi.Top />
         <h2>Publications</h2>
         {list}
     </div>

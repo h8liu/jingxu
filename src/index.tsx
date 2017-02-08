@@ -11,8 +11,9 @@ import pageOutreach from './pageoutreach'
 import pageTeach from './pageteach'
 import pageContact from './pagecontact'
 
-function props(): wrap.Props {
+function props(id: string): wrap.Props {
     return {
+        id: id,
         title: "Xu's Group for Energy Materials",
         css: './style.css',
         ga: 'UA-84380516-1',
@@ -22,19 +23,18 @@ function props(): wrap.Props {
 function generate(tmplDir: string) {
     let tmpls = new writer.TemplateWriter(tmplDir)
 
-    function o(f: string, body: JSX.Element, h: wrap.Props) {
-        tmpls.write(f + '.html', wrap.makePage(h, body, []))
+    function o(f: string, body: {(id:string):JSX.Element}) {
+        let p = props(f)
+        tmpls.write(f + '.html', wrap.makePage(p, body(f), []))
     }
 
-    let p = props();
-
-    o('index', pageIndex(), p)
-    o('group', pageGroup(), p)
-    o('pub', pagePub(), p)
-    o('equip', pageEquip(), p)
-    o('teach', pageTeach(), p)
-    o('outreach', pageOutreach(), p)
-    o('contact', pageContact(), p)
+    o('index', pageIndex)
+    o('group', pageGroup)
+    o('pub', pagePub)
+    o('equip', pageEquip)
+    o('teach', pageTeach)
+    o('outreach', pageOutreach)
+    o('contact', pageContact)
 }
 
 generate('out')

@@ -4,8 +4,6 @@ import * as navi from './navi'
 
 export default function pageEquip(): JSX.Element {
     return <div>
-        <navi.Top />
-
         <h2>Contact</h2>
         <p>Doctor Jing Xu</p>
         <p>

@@ -3,7 +3,7 @@
 all: clean tmpl css links
 
 clean:
-	rm -rf out
+	rm -rf out/*
 
 tmpl:
 	tsc && node .
@@ -23,10 +23,7 @@ lint:
 	tslint --project tsconfig.json
 
 pack:
-	rm dist.tgz
+	-rm jingxu.zip
 	rm -rf _
 	cp -RHL out _
-	cd _ && tar cvzf ../dist.tgz .
-
-pub: all pack
-	tar xvzf dist.tgz -C /prod/jingxu/dat
+	zip -r jingxu.zip _
