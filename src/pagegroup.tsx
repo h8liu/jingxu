@@ -8,6 +8,7 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Principle Investigator</h3>
         <div className="info">
+            <a name="jing"/>
             <img src="images/jing.jpg" className="photo" alt="Jing Xu"/>
             <h4>Jing Xu, Ph.D.</h4>
             <p>
@@ -31,11 +32,12 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Postdocs</h3>
 
-        <div className="comment"><em>None yet; waiting for you to apply.</em></div>
+        <div className="comment"><em>None yet; application welcomed.</em></div>
 
         <h3>Graduate Students</h3>
 
         <div className="info">
+            <a name="guantai"/>
             <img src="images/guantai.png" className="photo" alt="Guantai Hu"/>
             <h4>Guantai Hu</h4>
             <p>Guantai Hu is a master student currently working under the guidance
@@ -45,6 +47,7 @@ export default function pageGroup(): JSX.Element {
         </div>
 
         <div className="info">
+            <a name="hao"/>
             <img src="images/hao.png" className="photo" alt="Hao Lin"/>
             <h4>Hao Lin</h4>
             <p>Hao Lin received his B.S. in Mining Engineering from Chongqing
@@ -60,6 +63,7 @@ export default function pageGroup(): JSX.Element {
         <h3>Undergraduates</h3>
 
         <div className="info">
+            <a name="jacob"/>
             <img src="images/jacob.png" className="photo" alt="Jacob Wheaton"/>
             <h4>Jacob Wheaton</h4>
             <p>Jacob Wheaton is a freshman undergraduate student in Materials
@@ -78,7 +82,7 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Visitors</h3>
 
-        <div className="comment"><em>None yet; waiting for you to apply.</em></div>
+        <div className="comment"><em>None yet; application welcomed.</em></div>
 
         <hr/>
 

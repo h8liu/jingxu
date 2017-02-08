@@ -33,10 +33,13 @@ export default function pageIndex(): JSX.Element {
         </p>
 
         <ul>
-            <li>2017-01-01, Welcome Hao to join in the group!</li>
-            <li>2016-11-02, Welcome Jacob to join in the group!</li>
+            <li>2017-01-01, <a href="/group.html#hao">Hao</a> joined.
+                Welcome to the group!</li>
+            <li>2016-11-02, <a href="/group.html#jacob">Jacob</a> joined.
+                Welcome to the group!</li>
             <li>2016-09-19, our website is launched.</li>
-            <li>2016-09-16, Welcome Guantai to join in the group!</li>
+            <li>2016-09-16, <a href="/group.html#guantai">Guantai</a> joined.
+                Welcome to the group!</li>
             <li>2016-08-16, our group is established.</li>
         </ul>
     </div>
