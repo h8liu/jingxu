@@ -15,7 +15,7 @@ export default function pageGroup(): JSX.Element {
                 2220BL HOOVER<br/>
                 Ames, IA 50011<br/>
                 515-294-9278<br/>
-                <a href="mailto:jingxu@iastate.edu">jingxu @iastate.edu</a>
+                <a href="mailto:jingxu@iastate.edu">jingxu@iastate.edu</a>
             </div>
 
             <ul>
