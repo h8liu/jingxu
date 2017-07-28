@@ -16,8 +16,15 @@ export function Top(props: Props): JSX.Element {
     }
 
     return <div>
-        <div className="col">
+        <div className="col header">
             <h1><a href="/">Xu's Group for Energy Materials</a></h1>
+            <div>
+                <a href="https://www.mse.iastate.edu/">
+                    Materials Science and Engineering
+                </a>, <a href="https://www.iastate.edu/">
+                    Iowa State University
+                </a>
+            </div>
         </div>
         <div className="navi">
             <div className="col">

@@ -32,7 +32,24 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Postdocs</h3>
 
-        <div className="comment"><em>None yet; application welcomed.</em></div>
+        <div className="info">
+            <a name="ran"/>
+            <img src="images/ran.png" className="photo" alt="Ran Zhao"/>
+            <h4>Ran Zhao</h4>
+            <div className="contact">
+                <a href="mailto:ran9122@iastate.edu">ran9122@iastate.edu</a>
+            </div>
+            <p>Ran Zhao received her undergraduate degree in Chemistry in 2011
+                from Jilin University, China. She received her PhD in 2017 from
+                the Arizona State University, working with Candace K. Chan.
+                Her research has focused on understanding the
+                structural-electrochemical property relationships of several
+                novel materials of applications in energy storage. She studied
+                polyanion materials, including materials in hydroxysulfate
+                family and NASICON type as cathode and clathrate materials
+                as anode.
+            </p>
+        </div>
 
         <h3>Graduate Students</h3>
 

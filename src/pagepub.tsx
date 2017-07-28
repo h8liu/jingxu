@@ -5,13 +5,36 @@ import * as navi from './navi'
 export default function pagePub(): JSX.Element {
     let list = <ul className="pubs">
         <li>
+            Xu, J.; Renfrew, S.; Marcus, A. M.; Sun, M.; McCloskey, D. B.;
+            Tong, W.; <a href="papers/024.pdf">Investigating
+            Li<sub>2</sub>NiO<sub>2</sub>-Li<sub>2</sub>CuO<sub>2</sub> solid
+            solutions as high-capacity cathode materials for Li-Ion
+            batteries</a>. <em>The Journal of
+            Physical Chemistry C</em> 2017, 121 (21), 11100–11107
+        </li>
+        <li>
+            Ma, C.; Alvarado, J.; Xu, J.; Clement, R. J.; Kodur, M.; Tong, W.;
+            Grey, C. P.; Meng, Y. S.; <a href="papers/023.pdf">Exploring oxygen
+            activity in the high energy P2-type
+            Na<sub>0.78</sub>Ni<sub>0.23</sub>Mn<sub>0.69</sub>O<sub>2</sub> cathode
+            material for Na-ion batteries</a>. <em>Journal of the American
+            Chemical Society</em> 2017, 139, 4835-4845.
+        </li>
+        <li>
+            Xu, J.; Ling, M.; Terborg, L.; Zhao, H.; Qiu, F.; Urban, J. J.;
+            Kostecki, R.; Liu, G.; Wei, T.; <a href="papers/022.pdf">Facile
+            synthesis and electrochemistry of Si-Sn-C nanocomposites for
+            high-energy Li-Ion batteries</a>. <em>Journal
+            of The Electrochemical Society</em> 2017, 164, A1378-A1383.
+        </li>
+        <li>
             Clement, R. J.;  Xu, J.;
             Middlemiss, D.; Alvarado, J.; Ma, C.; Meng, Y. S.;
-            Grey, C. P.; Direct evidence for high
+            Grey, C. P.; <a href="papers/021.pdf">Direct evidence for high
             Na+ mobility and high voltage structural processes in
             P<sub>2</sub>-Na<sub>x</sub>[Li<sub>y</sub>Ni<sub>z</sub>Mn<sub>1-y-z</sub>]O<sub>2</sub>
             (x,y,z ≤ 1) cathodes from 23Na and 7Li solid-state NMR and first
-            principles density functional theory calculation. <em>Journal
+            principles density functional theory calculation</a>. <em>Journal
             of Materials Chemistry
             A</em> 2017, Accepted Manuscript.
         </li>

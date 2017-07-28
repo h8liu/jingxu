@@ -3,7 +3,7 @@ import * as React from 'react'
 import * as navi from './navi'
 
 export default function pageEquip(): JSX.Element {
-    return <div>
+    return <div className="contact">
         <h2>Contact</h2>
         <p>Dr. Jing Xu</p>
         <p>

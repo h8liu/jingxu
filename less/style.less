@@ -1,17 +1,15 @@
-@import "https://fonts.googleapis.com/css?family=Open+Sans";
-
 p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 body {
-    font-family: "Open Sans", "sans-serif";
+    font-family: "Arial", "Helvetica", "sans-serif";
     font-size: 15px;
     line-height: 23px;
-    margin: 0;
     padding: 0;
-    color: #333;
+    margin: 0;
+    color: #111;
     background: #fff;
 }
 
@@ -26,10 +24,15 @@ div.col {
     padding-right: @page-margin;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
 h1 {
     font-size: 27px;
     margin-top: 40px;
     margin-bottom: 40px;
+    color: #009;
 
     a, a:visited {
         color: #333;
@@ -42,13 +45,13 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
-    color: #666;
+    font-size: 24px;
+    color: #669;
     margin-top: 30px;
     margin-bottom: 10px;
     display:none;
 }
-h3 { font-size: 20px; color: #444; margin-top: 25px; margin-bottom: 10px; }
+h3 { font-size: 22px; color: #444; margin-top: 40px; margin-bottom: 10px; }
 h4 { font-size: 18px; }
 
 a, a:visited {
@@ -61,11 +64,21 @@ a:hover {
     color: #c00;
 }
 
+div.header {
+    text-align: center;
+    h1 {
+        margin-bottom: 10px;
+    }
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
 div.navi {
     margin-top: 10px;
     margin-bottom: 10px;
     background: #e0e0e0;
-    line-height: 40px;
+    line-height: 37px;
+    text-align: center;
 
     font-size: 16px;
 
@@ -196,4 +209,24 @@ div.bottom {
         margin-left: 13px;
         margin-right: 13px;
     }
+}
+
+p.soon {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #999;
+}
+
+div.contact {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #f7f7f7;
 }
