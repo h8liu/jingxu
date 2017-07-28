@@ -11,12 +11,12 @@ export default function pageGroup(): JSX.Element {
             <a name="jing"/>
             <img src="images/jing.jpg" className="photo" alt="Jing Xu"/>
             <h4>Jing Xu, Ph.D.</h4>
-            <p>
+            <div className="contact">
                 2220BL HOOVER<br/>
                 Ames, IA 50011<br/>
                 515-294-9278<br/>
                 <a href="mailto:jingxu@iastate.edu">jingxu @iastate.edu</a>
-            </p>
+            </div>
 
             <ul>
                 <li>Assistant Professor, Material Science and Engineering
