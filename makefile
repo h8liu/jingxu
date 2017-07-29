@@ -26,7 +26,11 @@ pack:
 	-rm jingxu.zip
 	rm -rf _
 	cp -RHL out _
-	zip -r jingxu.zip _
+	zip -r jingxu.zip _/*.html _/*.css _/images
+	zip -r jingxu-papers.zip _/papers
 
 cp:
 	scp jingxu.zip h8w:/prod/jingxu/pkg/.
+
+cp-papers:
+	scp jingxu-papers.zip h8w:/prod/jingxu/pkg/.
