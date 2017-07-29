@@ -35,7 +35,7 @@ export default function pageGroup(): JSX.Element {
         <div className="info">
             <a name="ran"/>
             <img src="images/ran.png" className="photo" alt="Ran Zhao"/>
-            <h4>Ran Zhao</h4>
+            <h4>Ran Zhao, Ph.D.</h4>
             <div className="contact">
                 <a href="mailto:ran9122@iastate.edu">ran9122@iastate.edu</a>
             </div>

@@ -27,3 +27,6 @@ pack:
 	rm -rf _
 	cp -RHL out _
 	zip -r jingxu.zip _
+
+cp:
+	scp jingxu.zip h8w:/prod/jingxu/pkg/.
