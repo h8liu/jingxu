@@ -7,9 +7,10 @@ export default function pageGroup(): JSX.Element {
         <h2>Group Members</h2>
 
         <h3>Principle Investigator</h3>
-        <div className="info">
-            <a id="jing" />
-            <img src="images/jing.jpg" className="photo" alt="Jing Xu" />
+        <div className="info" id="jing">
+            <div className="photo">
+                <img src="images/jing.jpg" className="photo" alt="Jing Xu" />
+            </div>
             <h4>Jing Xu, Ph.D.</h4>
             <div className="contact">
                 2220BL HOOVER<br />
@@ -32,9 +33,10 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Postdocs</h3>
 
-        <div className="info">
-            <a id="ran" />
-            <img src="images/ran.png" className="photo" alt="Ran Zhao" />
+        <div className="info" id="ran">
+            <div className="photo">
+                <img src="images/ran.png" className="photo" alt="Ran Zhao" />
+            </div>
             <h4>Ran Zhao, Ph.D.</h4>
             <div className="contact">
                 <a href="mailto:ran9122@iastate.edu">ran9122@iastate.edu</a>
@@ -53,9 +55,10 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Graduate Students</h3>
 
-        <div className="info">
-            <a id="guantai" />
-            <img src="images/guantai.png" className="photo" alt="Guantai Hu" />
+        <div className="info" id="guantai">
+            <div className="photo">
+                <img src="images/guantai.png" className="photo" alt="Guantai Hu" />
+            </div>
             <h4>Guantai Hu</h4>
             <div className="contact">
                 <a href="mailto:guantaih@iastate.edu">guantaih@iastate.edu</a>
@@ -66,9 +69,10 @@ export default function pageGroup(): JSX.Element {
                 oxides as cathode material in sodium ion battery.</p>
         </div>
 
-        <div className="info">
-            <a id="hao" />
-            <img src="images/hao.png" className="photo" alt="Hao Lin" />
+        <div className="info" id="hao">
+            <div className="photo">
+                <img src="images/hao.png" className="photo" alt="Hao Lin" />
+            </div>
             <h4>Hao Lin</h4>
             <div className="contact">
                 <a href="mailto:lin666@iastate.edu">lin666@iastate.edu</a>
@@ -85,9 +89,10 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Undergraduates</h3>
 
-        <div className="info">
-            <a id="jacob" />
-            <img src="images/jacob.png" className="photo" alt="Jacob Wheaton" />
+        <div className="info" id="jacob">
+            <div className="photo">
+                <img src="images/jacob.png" className="photo" alt="Jacob Wheaton" />
+            </div>
             <h4>Jacob Wheaton</h4>
             <div className="contact">
                 <a href="mailto:wheaton1@iastate.edu">wheaton1@iastate.edu</a>

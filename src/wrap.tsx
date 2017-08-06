@@ -20,7 +20,8 @@ function makeHead(props: Props) {
         <title>
             {props.title || 'shanhu'}
         </title>
-        <meta name="viewport" content="width=600, initial-scale=1" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1" />
         {style}
         {gascript}
     </head>

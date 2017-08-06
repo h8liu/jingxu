@@ -20,8 +20,10 @@ export default function pageIndex(): JSX.Element {
     optimizations of ceramic materials for different energy technologies.
     `
     return <div>
-        <img className="jing-large cover"
-            src="images/jing-large.jpg" alt="Jing Xu" />
+        <div className="jing-hero">
+            <img className="jing-large cover"
+                src="images/jing-large.jpg" alt="Jing Xu" />
+        </div>
         <h3>Research Overview</h3>
         <p>{overview}</p>
 

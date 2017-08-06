@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    line-height: 34px;
     font-size: 27px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -137,24 +138,49 @@ img.jing {
     height: 180px;
 }
 
-img.cover {
-    float: right;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+@media only screen and (min-width: 600px) {
+    div.jing-hero {
+        float: right;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 250px;
+        text-align: right;
+    }
+
+    div.info {
+        margin-left: 180px;
+        div.photo {
+            float: left;
+            margin-left: -180px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    div.jing-hero {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.info {
+        div.photo {
+            margin-top: 40px;
+        }
+    }
 }
 
 div.info {
-    margin-left: 180px;
+    margin-top: 20px;
     min-height: 200px;
 
     img.photo {
-        float: left;
-        margin-left: -180px;
         border-radius: 5px;
     }
 
     h4 {
+        margin-top: 10px;
         margin-bottom: 3px;
     }
 
