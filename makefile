@@ -34,3 +34,6 @@ cp:
 
 cp-papers:
 	scp jingxu-papers.zip h8w:/prod/jingxu/pkg/.
+
+shrink:
+	npm shrinkwrap
