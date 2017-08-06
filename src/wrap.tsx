@@ -13,15 +13,16 @@ export interface Props {
 
 function makeHead(props: Props) {
     let style = props.css &&
-        <link rel="stylesheet" type="text/css" href={ props.css } />
+        <link rel="stylesheet" type="text/css" href={props.css} />
     let gascript = props.ga && ga.script(props.ga)
     return <head>
         <meta charSet="UTF-8" />
         <title>
-            { props.title || 'shanhu' }
+            {props.title || 'shanhu'}
         </title>
-        { style }
-        { gascript }
+        <meta name="viewport" content="width=600, initial-scale=1" />
+        {style}
+        {gascript}
     </head>
 }
 
@@ -31,14 +32,14 @@ export function makePage(
     scripts: string[]
 ) {
     return <html lang="en">
-        {makeHead(props) }
+        {makeHead(props)}
         <body>
             <navi.Top id={props.id} />
             <div className="body col">
-                { body }
+                {body}
             </div>
             <navi.Bottom />
-            { scripts.map(f => <script src={f} key={f} />) }
+            {scripts.map(f => <script src={f} key={f} />)}
         </body>
     </html>
 }

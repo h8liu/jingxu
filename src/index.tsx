@@ -23,7 +23,7 @@ function props(id: string): wrap.Props {
 function generate(tmplDir: string) {
     let tmpls = new writer.TemplateWriter(tmplDir)
 
-    function o(f: string, body: {(id:string):JSX.Element}) {
+    function o(f: string, body: { (id: string): JSX.Element }) {
         let p = props(f)
         tmpls.write(f + '.html', wrap.makePage(p, body(f), []))
     }

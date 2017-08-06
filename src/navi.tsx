@@ -29,13 +29,13 @@ export function Top(props: Props): JSX.Element {
         <div className="navi">
             <div className="col">
                 <ul>
-                    { link('index', 'Home') }
-                    { link('group', 'Group Members') }
-                    { link('pub', 'Publications') }
-                    { link('equip', 'Equipment') }
-                    { link('teach', 'Teaching') }
-                    { link('outreach', 'Outreach') }
-                    { link('contact', 'Contact') }
+                    {link('index', 'Home')}
+                    {link('group', 'Group Members')}
+                    {link('pub', 'Publications')}
+                    {link('equip', 'Equipment')}
+                    {link('teach', 'Teaching')}
+                    {link('outreach', 'Outreach')}
+                    {link('contact', 'Contact')}
                 </ul>
             </div>
         </div>

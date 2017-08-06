@@ -18,5 +18,5 @@ export function script(account: string): JSX.Element {
         ].join('\n')
     }
 
-    return <script dangerouslySetInnerHTML={ html }/>
+    return <script dangerouslySetInnerHTML={html} />
 }

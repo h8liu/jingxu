@@ -8,13 +8,13 @@ export default function pageGroup(): JSX.Element {
 
         <h3>Principle Investigator</h3>
         <div className="info">
-            <a name="jing"/>
-            <img src="images/jing.jpg" className="photo" alt="Jing Xu"/>
+            <a id="jing" />
+            <img src="images/jing.jpg" className="photo" alt="Jing Xu" />
             <h4>Jing Xu, Ph.D.</h4>
             <div className="contact">
-                2220BL HOOVER<br/>
-                Ames, IA 50011<br/>
-                515-294-9278<br/>
+                2220BL HOOVER<br />
+                Ames, IA 50011<br />
+                515-294-9278<br />
                 <a href="mailto:jingxu@iastate.edu">jingxu@iastate.edu</a>
             </div>
 
@@ -33,8 +33,8 @@ export default function pageGroup(): JSX.Element {
         <h3>Postdocs</h3>
 
         <div className="info">
-            <a name="ran"/>
-            <img src="images/ran.png" className="photo" alt="Ran Zhao"/>
+            <a id="ran" />
+            <img src="images/ran.png" className="photo" alt="Ran Zhao" />
             <h4>Ran Zhao, Ph.D.</h4>
             <div className="contact">
                 <a href="mailto:ran9122@iastate.edu">ran9122@iastate.edu</a>
@@ -54,8 +54,8 @@ export default function pageGroup(): JSX.Element {
         <h3>Graduate Students</h3>
 
         <div className="info">
-            <a name="guantai"/>
-            <img src="images/guantai.png" className="photo" alt="Guantai Hu"/>
+            <a id="guantai" />
+            <img src="images/guantai.png" className="photo" alt="Guantai Hu" />
             <h4>Guantai Hu</h4>
             <div className="contact">
                 <a href="mailto:guantaih@iastate.edu">guantaih@iastate.edu</a>
@@ -67,8 +67,8 @@ export default function pageGroup(): JSX.Element {
         </div>
 
         <div className="info">
-            <a name="hao"/>
-            <img src="images/hao.png" className="photo" alt="Hao Lin"/>
+            <a id="hao" />
+            <img src="images/hao.png" className="photo" alt="Hao Lin" />
             <h4>Hao Lin</h4>
             <div className="contact">
                 <a href="mailto:lin666@iastate.edu">lin666@iastate.edu</a>
@@ -86,8 +86,8 @@ export default function pageGroup(): JSX.Element {
         <h3>Undergraduates</h3>
 
         <div className="info">
-            <a name="jacob"/>
-            <img src="images/jacob.png" className="photo" alt="Jacob Wheaton"/>
+            <a id="jacob" />
+            <img src="images/jacob.png" className="photo" alt="Jacob Wheaton" />
             <h4>Jacob Wheaton</h4>
             <div className="contact">
                 <a href="mailto:wheaton1@iastate.edu">wheaton1@iastate.edu</a>
@@ -110,10 +110,10 @@ export default function pageGroup(): JSX.Element {
 
         <div className="comment"><em>None yet; application welcomed.</em></div>
 
-        <hr/>
+        <hr />
 
         <p className="ad"><em>We have several openings for postdocs,
-            graduate students, and undergraduates. <br/>
+            graduate students, and undergraduates. <br />
             If you have interests, please send your CV
             to <a href="mailto:jingxu@iastate.edu">jingxu@iastate.edu</a>.</em></p>
     </div >
